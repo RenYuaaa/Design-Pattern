@@ -3,7 +3,7 @@ package com.study.design.creational.singleton;
 /**
  * @author: renjiahui
  * @date: 2021-03-16 23:28
- * @description: 懒汉式单例模式
+ * @description: 懒汉式单例模式--使用时才创建该对象
  */
 public class LazySignleton {
 

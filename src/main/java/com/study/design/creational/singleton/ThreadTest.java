@@ -10,7 +10,9 @@ public class ThreadTest implements Runnable {
     public void run() {
 //        LazySignleton lazySignleton = LazySignleton.getInstance();
 
-        LazyDoubleCheckSingleton instance = LazyDoubleCheckSingleton.getInstance();
+//        LazyDoubleCheckSingleton instance = LazyDoubleCheckSingleton.getInstance();
+
+        StaticInnerClassSingleton instance = StaticInnerClassSingleton.getInstance();
         System.out.println(Thread.currentThread().getName() + ":" + instance );
     }
 }
