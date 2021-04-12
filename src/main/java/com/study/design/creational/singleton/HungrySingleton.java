@@ -6,6 +6,10 @@ import java.io.Serializable;
  * @author: renjiahui
  * @date: 2021-03-17 22:53
  * @description: 饿汉式单例--类加载时就创建好对象
+ * 饿汉式：
+ *      类加载到内存后，就实例化一个单例，JVM保证线程安全
+ *      简单实用，推荐使用
+ *      唯一缺点：不管用到与否，类加载时就完成实例化
  */
 public class HungrySingleton implements Serializable {
 
@@ -27,7 +31,4 @@ public class HungrySingleton implements Serializable {
         return hungrySingleton;
     }
 
-    private Object readResolve() {
-        return hungrySingleton;
-    }
 }
