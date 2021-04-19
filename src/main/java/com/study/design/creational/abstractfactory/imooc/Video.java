@@ -1,4 +1,4 @@
-package com.study.design.creational.abstractfactory;
+package com.study.design.creational.abstractfactory.imooc;
 
 /**
  * @author: renjiahui

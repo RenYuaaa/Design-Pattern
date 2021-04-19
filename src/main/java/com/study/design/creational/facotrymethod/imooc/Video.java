@@ -1,4 +1,4 @@
-package com.study.design.creational.facotrymethod;
+package com.study.design.creational.facotrymethod.imooc;
 
 /**
  * @author: renjiahui
